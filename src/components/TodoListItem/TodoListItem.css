@@ -1,0 +1,19 @@
+.todo-list--block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list--block.done span {
+  text-decoration: line-through;
+}
+
+.todo-list--block span {
+  cursor: pointer;
+}
+
+.todo-list--block.important span {
+  color: steelblue;
+  font-weight: bold;
+}

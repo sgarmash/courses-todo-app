@@ -1,0 +1,11 @@
+.input-group {
+  margin-bottom: 10px;
+}
+
+.todo-button-filter {
+  width: 40px;
+}
+
+.todo-button-filter:last-of-type {
+  margin-left: 10px !important;
+}
